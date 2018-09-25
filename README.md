@@ -2,11 +2,15 @@
 
 <p float="left">
 
-  <img src="./2018=PCA MUSIC/Figs/Fig1.png" width="200" />
-  <img src="./2018=PCA MUSIC/Figs/Fig4.png" width="200" />
-  <img src="./2018=PCA MUSIC/Figs/Fig2.png" width="200" />
-  <img src="./2018=PCA MUSIC/Figs/Fig3.png" width="200" />
-  <img src="./2018=PCA MUSIC/Figs/Fig4.png" width="200" />
+  <img src="./2018=PCA MUSIC/Figs/Fig1.png" width="400" />
+  
+  <img src="./2018=PCA MUSIC/Figs/Fig4.png" width="400" />
+  
+  <img src="./2018=PCA MUSIC/Figs/Fig2.png" width="400" />
+  
+  <img src="./2018=PCA MUSIC/Figs/Fig3.png" width="400" />
+  
+  <img src="./2018=PCA MUSIC/Figs/Fig5.png" width="400" />
 </p>
 
 # Reference:
