@@ -6,7 +6,7 @@ For the first time, I have found closed-form solution for this challenge via Bay
 
 In simulations, we found that SNR = -10 (dB) is the limit of accurate estimation (i.e. non-overfitting) for independent sources. 
 
-In practice, this SNR limit can be estimated from data Y via signal-plus-noise's percentage \tau (i.e. SNR > -10 (dB) <=> \tau < 90%), which means the limit of non-overfitting for independent sources is:
+In practice, this SNR limit can be estimated from data Y via signal-plus-noise's percentage \tau(Y) (i.e. SNR > -10 (dB) <=> \tau(Y) < 90%), which means the limit of non-overfitting for independent sources is:
 
 **SNR > -10 (dB)  <=>  "noise's deviation < 3 * source's deviation"**
 
