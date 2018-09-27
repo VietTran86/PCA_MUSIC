@@ -15,6 +15,9 @@
   <img src="./2018=PCA MUSIC/Figs/Fig5.png" width="400" />
   
   <img src="./2018=PCA MUSIC/Figs/VietHung_ICASSP_2018.png" width="800" />
+  
+  <img src="./2018=PCA MUSIC/Figs/Conclusion.png" width="400" />
+  
 </p>
 
 # Reference:
