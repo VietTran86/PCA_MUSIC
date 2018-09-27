@@ -1,8 +1,8 @@
 # Bayesian inference for PCA and MUSIC algorithms with unknown number of sources
 
-Given Y = VA + Z, how to estimate the unknown dimension of V,A optimally, without overfitting ? This is the 50-year-old challenge for popular PCA model.
+Given Y = VA + Z, how to estimate the unknown dimension of V, A optimally, without overfitting ? This is the 50-year-old challenge for popular (factor-analysis) PCA model.
 
-For the first time, I have found closed-form solution for this challenge via Bayesian method (with linear complexity).
+For the first time, I have found closed-form solution for this challenge via maximum-a-posterior (MAP) estimate in Bayesian method (i.e. the estimation is fast, with linear complexity).
 
 In simulations, we found that SNR = -10 (dB) is the limit of accurate estimation (i.e. non-overfitting) for independent sources. 
 
