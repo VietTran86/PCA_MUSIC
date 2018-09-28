@@ -17,7 +17,7 @@ In practice, this SNR limit can be estimated from data Y via signal-plus-noise's
 
   <img src="./2018=PCA MUSIC/Figs/Abstract arxiv.png" width="800" />
   
-  <img src="./2018=PCA MUSIC/Figs/Abstract" width="800" />
+  <img src="./2018=PCA MUSIC/Figs/Abstract.png" width="800" />
 
   <img src="./2018=PCA MUSIC/Figs/Fig1.png" width="400" />
   
