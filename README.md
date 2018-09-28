@@ -2,7 +2,7 @@
 
 Given Y = VA + Z, how to estimate the unknown dimension of V, A optimally, without overfitting ? This is the 50-year-old challenge for popular (factor-analysis) PCA model.
 
-For the first time, I have found closed-form solution for this challenge via maximum-a-posterior (MAP) estimate in Bayesian method (i.e. the estimation is fast, with linear complexity).
+For the first time, I have found closed-form solution for this challenge via maximum-a-posterior (MAP) estimate in Bayesian method (i.e. the estimation is fast, with linear complexity). In order to solve this problem, I ended up deriving completely new probability distributions in the Appendix.
 
 In simulations, we found that SNR = -10 (dB) is the limit of accurate estimation (i.e. non-overfitting) for independent sources. 
 
