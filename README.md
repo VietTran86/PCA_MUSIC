@@ -40,3 +40,5 @@ In practice, this SNR limit can be estimated from data Y via signal-plus-noise's
 V.H.Tran and W.Wang, "Bayesian inference for PCA and MUSIC algorithms with unknown number of sources", submitted to IEEE Trans. on Signal Processing 2018 https://arxiv.org/abs/1809.10168
 
 V.H.Tran, W.Wang, Y.Luo and J.Chambers, "Bayesian Inference for Multi-Line Spectra in Linear Sensor Array", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2018, https://ieeexplore.ieee.org/document/8461844
+
+Viet Hung Tran, "Copula Variational Bayes inference via information geometry", IEEE Trans. on information theory 2018 - https://arxiv.org/abs/1803.10998
