@@ -15,7 +15,7 @@ P.S: we compared our MAP method with standard MATLAB packages (music and aictest
 
 <p float="left">
 
-  <img src="./2018=PCA MUSIC/Figs/VietHung_PCA_MUSIC.png" width="800" />
+  <img src="./2018=PCA MUSIC/Figs/VietHung_PCA_MUSIC_b.png" width="800" />
 
   <img src="./2018=PCA MUSIC/Figs/Abstract arxiv.png" width="800" />
   
