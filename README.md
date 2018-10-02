@@ -10,10 +10,12 @@ In practice, this SNR limit can be estimated from data Y via signal-plus-noise's
 
 **SNR > -10 (dB)  <=>  "noise's deviation < 3 * source's deviation"**
 
-P.S: we compared our MAP method with standard MATLAB packages (music and aictest). Everything should be clear in the code. All feedbacks are welcome!
+P.S: we compared our MAP method with standard MATLAB packages (music and aictest). Everything should be clear in the code. All feedbacks are really welcome!
 
 
 <p float="left">
+
+  <img src="./2018=PCA MUSIC/Figs/VietHung_PCA_MUSIC.png" width="800" />
 
   <img src="./2018=PCA MUSIC/Figs/Abstract arxiv.png" width="800" />
   
