@@ -6,7 +6,7 @@ For the first time, I have found closed-form solution for this challenge via max
 
 In simulations, we found that SNR = -10 (dB) is the limit of accurate estimation (i.e. non-overfitting) for independent sources. 
 
-In practice, we know that three standard deviation is the limit of Gaussian noise. 
+By central limit theorem, we know that three standard deviation is the limit of all averaged random variables. 
 
 Hence, this SNR limit can be estimated from data Y via signal-plus-noise's percentage \tau(Y) (i.e. SNR > -10 (dB) <=> \tau(Y) < 90%), which means the limit of non-overfitting for independent sources is:
 
