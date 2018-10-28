@@ -1,12 +1,12 @@
 # Bayesian inference for PCA and MUSIC algorithms with unknown number of sources
 
-Given Y = VA + Z, how to estimate the unknown dimension of V, A optimally, without overfitting ? This is the 50-year-old challenge for popular (factor-analysis) PCA model.
+Given Y = VA + Z, how to estimate the unknown dimension of V, A optimally, without overfitting ? This is the 50-year-old challenge for popular PCA model (e.g. factor-analysis, dimentional reduction, etc.) 
 
 For the first time, I have found closed-form solution for this challenge via maximum-a-posterior (MAP) estimate in Bayesian method (i.e. the estimation is fast, with linear complexity). In order to solve this problem, I ended up deriving completely new probability distributions (namely Double-gamma and Double-inverse-gamma distributions) in the Appendix.
 
 In simulations, we found that SNR = -10 (dB) is the limit of accurate estimation (i.e. non-overfitting) for independent sources. 
 
-In practice, this SNR limit can be estimated from data Y via signal-plus-noise's percentage \tau(Y) (i.e. SNR > -10 (dB) <=> \tau(Y) < 90%), which means the limit of non-overfitting for independent sources is:
+In practice, we know that three standard deviation is the limit of Gaussian noise. Hence, this SNR limit can be estimated from data Y via signal-plus-noise's percentage \tau(Y) (i.e. SNR > -10 (dB) <=> \tau(Y) < 90%), which means the limit of non-overfitting for independent sources is:
 
 **SNR > -10 (dB)  <=>  "noise's deviation < 3 * source's deviation"**
 
