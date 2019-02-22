@@ -1,6 +1,6 @@
 # Bayesian inference for PCA and MUSIC algorithms with unknown number of sources
 
-Given Y = VA + Z, how to estimate the unknown dimension of V, A optimally, without overfitting ? This is the 50-year-old challenge for popular PCA model (e.g. factor-analysis, dimentional reduction, etc.) 
+Given Y = VA + Z, how to estimate the unknown dimension of V, A optimally, without overfitting ? This is a 50-year-old challenge for popular PCA model (e.g. factor-analysis, dimentional reduction, etc.) 
 
 For the first time, I have found closed-form solution for this challenge via maximum-a-posterior (MAP) estimate in Bayesian method (i.e. the estimation is fast, with linear complexity). In order to solve this problem, I ended up deriving completely new probability distributions (namely Double-gamma and Double-inverse-gamma distributions) in the Appendix.
 
@@ -42,5 +42,3 @@ P.S: we compared our MAP method with standard MATLAB packages (music and aictest
 V.H.Tran and W.Wang, "Bayesian inference for PCA and MUSIC algorithms with unknown number of sources", submitted to IEEE Trans. on Signal Processing 2018 https://arxiv.org/abs/1809.10168
 
 V.H.Tran, W.Wang, Y.Luo and J.Chambers, "Bayesian Inference for Multi-Line Spectra in Linear Sensor Array", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2018, https://ieeexplore.ieee.org/document/8461844
-
-Viet Hung Tran, "Copula Variational Bayes inference via information geometry", IEEE Trans. on information theory 2018 - https://arxiv.org/abs/1803.10998
